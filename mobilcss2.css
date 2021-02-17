@@ -257,6 +257,7 @@ a {
 }
 .plushebergement {
       font-weight: bold;
+      margin: 5px 0 0 5px ;
 }
 /* Hebergement populaire */
 .populaire {
