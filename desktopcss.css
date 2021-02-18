@@ -154,6 +154,9 @@ a {
         height: 55px;
         width: 55px;      
 }
+.iconrecherche:hover {
+        background-color: white;
+}
 .iconz {
         color: #0065FC;
 }
