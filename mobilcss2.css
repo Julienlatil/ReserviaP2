@@ -162,6 +162,9 @@ a {
       height: 50px;
       width: 50px;
 }
+.iconrecherche:hover {
+        background-color: white;
+}
 .iconz {
       color: #0065FC;
 }
