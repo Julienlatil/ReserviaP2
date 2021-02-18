@@ -1,6 +1,6 @@
 /* PAGE */
 body {
-    font-family: "Raleway";
+    font-family: "Raleway", "calibri", "arial";
     margin: 0;
 }
 
@@ -36,7 +36,7 @@ a {
       text-align: center;
       transition-duration: 0.2s;   
       border-top: none;
-      border-bottom: 4px solid #e9e9e9;
+      border-bottom: 4px solid #F2F2F2;
        width: 50%;    
 }
 .navperm1{
@@ -77,7 +77,7 @@ a {
       
 }
 .mapmaker {
-      background-color: #e9e9e9;
+      background-color: #F2F2F2;
       padding: 16px 20px;
       border-radius: 16px 0 0 16px;
       text-align: center;
@@ -86,16 +86,17 @@ a {
       margin-left: 2px;
 }
 .recherchemars {
+      font-family: "Raleway";
       border-right: none;
       border-left: none;
-      border-top: #e9e9e9 1px solid;
-      border-bottom: #e9e9e9 1px solid;
+      border-top: #F2F2F2 1px solid;
+      border-bottom: #F2F2F2 1px solid;
       padding: 0 24px;
       box-sizing: border-box;
       width: 220px;
       font-size: 16px;
       font-weight: bold;
-      font-family: "Raleway";
+      
 }
 .recherchemars::placeholder {
       font-family: "Raleway";
@@ -103,7 +104,7 @@ a {
       color: #00000059;
 }      
 .rechercheville {
-      background-color: #0868f8;
+      background-color: #0065FC;
       color: white;
       font-weight: bold;
       border: none;
@@ -127,7 +128,7 @@ a {
     flex-wrap: wrap;
 }
 .Filtretitre {
-       margin: 0px 1000px 20px 10px;
+      margin: 0px 1000px 20px 10px;
       display: flex; 
       flex-direction: column;     
 }
@@ -135,7 +136,7 @@ a {
       display: flex;
       align-items: center;
       margin-right: 30px;
-      border: 2px solid #e9e9e9;
+      border: 2px solid #F2F2F2;
       border-radius: 30px;
       margin-bottom: 15px;
       cursor: pointer;
@@ -146,11 +147,11 @@ a {
       margin-right: 0;
 }
 .rechercheparfiltre:hover {
-      background-color: #f3f8ff;
+      background-color: #DEEBFF;
       transform: scale(1.015);
 }
 .iconrecherche {
-      background-color: #d9e6fa;
+      background-color: #DEEBFF;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -162,7 +163,7 @@ a {
       width: 50px;
 }
 .iconz {
-      color: blue;
+      color: #0065FC;
 }
 .recherchetitre {
       margin: 0 15px;
@@ -177,7 +178,7 @@ a {
       width: 30px;
       min-height: 30px;
       min-width: 30px;
-      border: solid 1px #e9e9e9;
+      border: solid 1px F2F2F2;
       border-radius: 100%;
       display: flex;
       align-items: center;
@@ -185,7 +186,7 @@ a {
       margin-right: 30px;
 }
 .iconz2 {
-      color: #0868f8;
+      color: #0065FC;
 }
 .TitreInfo {
       margin: 0;
@@ -253,7 +254,7 @@ a {
       color: #0065FC;
 }
 .star2 {
-      color: #e9e9e9;
+      color: #F2F2F2;
 }
 .plushebergement {
       font-weight: bold;
@@ -263,7 +264,7 @@ a {
 .populaire {
       
       row-gap: 30px;
-      background-color: #e9e9e9;
+      background-color: #F2F2F2;
       border-radius: 25px;
       padding: 25px;
       grid-template-columns: repeat(3, 1fr);
@@ -327,9 +328,9 @@ a {
         
         margin: 65px 0;
         row-gap: 30px;
-               grid-template-columns: repeat(3, 1fr);
-               grid-template-rows: auto 200px 200px;
-               column-gap: 30px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto 200px 200px;
+        column-gap: 30px;
 }
 .activityTitre {
         grid-column: 1/-1;
@@ -361,7 +362,7 @@ a {
 
 /* footer mentions */
 .footer {
-        background-color: #f0eeee;
+        background-color: #F2F2F2;
         width: 100%;
 }
 .footerbase {
@@ -395,20 +396,20 @@ a {
            border-top: 3px transparent solid;
         border-bottom: 3px transparent solid;}     
       .navperm1 {
-             border-top: 3px solid #0868f8 ;      
+             border-top: 3px solid #0065FC ;      
       }
       .navperm:hover {
-             border-top: 3px solid #0868f8;
+             border-top: 3px solid #0065FC;
       }
 }  
 @media screen and (max-width:600px) {
       .navperm1{
          
-            border-bottom-color: #0868f8; 
+            border-bottom-color: #0065FC; 
        } 
        .navperm:hover {
             
-            border-bottom-color: #0868f8;    
+            border-bottom-color: #0065FC;    
        }
 
 
@@ -435,7 +436,7 @@ a {
         row-gap: 30px;
         align-items: start;
        grid-template-rows:max-content;
-        background-color: #e9e9e9;
+        background-color: #F2F2F2;
         border-radius: 28px;
         padding: 30px;
     
