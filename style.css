@@ -16,7 +16,7 @@ a {
       max-width: 1001px;
       margin: auto; 
       grid-template-columns: auto 1fr auto;
-      grid-template-areas: "logo . button" "navbar navbar navbar";      
+      grid-template-areas: "logo . inscr" "nav nav nav";      
 }
 .Logo1 {
       grid-area: logo;
@@ -27,7 +27,7 @@ a {
 .navigation {
       display: flex;
       align-items: center;
-      grid-area: navbar;
+      grid-area: nav;
      
 }  
 .navperm {
@@ -49,7 +49,7 @@ a {
 .inscription {
       display: flex;
       align-items: center;
-      grid-area: button;
+      grid-area: inscr;
       padding: 30px;
       color: #0065FC;
       font-weight: 600;
@@ -350,7 +350,7 @@ a {
 @media screen and (min-width: 601px) and (max-width:999px) {
       .header {
       grid-template-columns: auto 1fr auto auto;
-      grid-template-areas: "logo . navbar button";
+      grid-template-areas: "logo . nav inscr";
       }  
       .navperm { 
       border-top: 3px transparent solid;
@@ -495,7 +495,7 @@ a {
       .header {
       max-width: 1450px;
       grid-template-columns: auto 1fr auto auto;
-      grid-template-areas: "logo . navbar button";
+      grid-template-areas: "logo . nav inscr";
       }
       .navperm {
       border-bottom: none;
